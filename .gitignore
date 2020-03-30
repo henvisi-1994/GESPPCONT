@@ -1,0 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/gesppcont_backend/dist
+/gesppcont_backend/tmp
+/gesppcont_backend/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/gesppcont_backend/node_modules
+/gesppcont/node_modules
+
+# profiling files
+gesppcont_backend/chrome-profiler-events*.json
+gesppcont_backend/speed-measure-plugin*.json
+
+# IDEs and editors
+/gesppcont_backend/.idea
+/gesppcont_backend/.project
+/gesppcont_backend/.classpath
+/gesppcont_backend/.c9/
+/gesppcont_backend/*.launch
+/gesppcont_backend/.settings/
+/gesppcont_backend/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/gesppcont_backend/.sass-cache
+/gesppcont_backend/connect.lock
+/gesppcont_backend/coverage
+/gesppcont_backend/libpeerconnection.log
+/gesppcont_backend/npm-debug.log
+/gesppcont_backend/yarn-error.log
+/gesppcont_backend/testem.log
+/gesppcont_backend/typings
+
+# System Files
+/gesppcont_backend/.DS_Store
+/gesppcont_backend/Thumbs.db
